@@ -1,0 +1,242 @@
+
+/* add font face */
+
+@font-face {
+	font-family: style1;
+	src: url('font face/STIXTwoMath-Regular.ttf');
+}
+@font-face {
+	font-family: style2;
+	src: url('font face/PatuaOne-Regular.ttf');
+}
+@font-face {
+	font-family: style3;
+	src: url('font face/ArchivoBlack-Regular.ttf');
+}
+
+@font-face {
+	font-family: style-titre;
+	src: url('font face/Tourney-Italic-VariableFont_wdth,wght.ttf');
+}
+
+/* parier css pour le titre h1 */
+h1{ text-align: center;
+font-family: style-titre;
+font-size: xx-large;   color: coral;      
+box-shadow: 2ex black;       }
+
+/* pour le image dans un circle radius le border  */
+
+/*  */
+.im  img {
+  
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  
+ 
+  border: 10px solid transparent;
+
+
+}
+ /* photo miniature qui s’agrandi au passage de la sourie */
+ 
+.im  a:hover img {
+  transform: scale(1.1, 1.1); }
+
+/* le partier de nav top left 0 por le position top agouche  position fix pour ne pas bouje back grande img comme demmender */
+nav {
+top: 0;
+left: 0;
+	position: fixed;
+background-image: url('img/fr.jpg');
+	float: left;
+	width: 19%;
+	height:100%;
+font-family: style2;
+
+	
+}
+/* le partier de header position fix top a droit de nav  */
+
+header{
+top: 0;
+right: 0;
+position: fixed;
+
+background-image: url("img/header.png");
+width: 80%;
+padding-left: 12px;
+height: 150px;
+}
+/* class section pour utiliser aper dan html  positon fix au milau  */
+
+.section{
+	margin-top: 150px;
+	margin-left: 250px;
+position: fixed;
+	
+}
+/*  partie footer position botom adroit de nav avec img background  */
+
+footer{
+	bottom: 0;
+	right: 0;
+width: 80%;
+border-radius: 5px;
+position: fixed;
+background-image: url('img/fotter.jpg');
+
+padding-left: 12px;
+}
+
+/*  pour un list hourizontale in line block avec pading pour bien afficher  */
+header li{display: inline-block;
+padding-left: 80px;
+
+
+}
+
+/*    */
+.ul{
+
+	margin-left: 120px;
+}
+footer ul {
+	padding-left: 6px;
+}
+iframe {
+
+
+border-block-color: red;
+border-radius: 5px;
+
+}
+
+header a{
+border-radius: 5px;
+	
+	padding: 4px 4px 6px 6px;
+}
+.center{
+	text-align: center;
+}
+p{
+
+	
+	font-size:small;
+	font:bold;
+}
+.right{
+top: 0;
+	float: right;
+	padding-right: 10px;
+}
+.inl {display: inline-block;}
+#ph{
+	font-family: style1;
+	font-size: larger;
+	color:rgb(1, 2, 1);
+	margin-bottom: 0;
+	background-color: #c6c6c6;
+	border: #d5d5d5;
+
+}
+footer p {
+text-align: center;
+	font-family: style3;
+	font-size: medium;
+	margin-top: 5px;
+}
+
+/*  cllass pour le style est position de autre page   */
+.timeline {
+	border-left: 2px solid #0068f0;
+	padding: 1rem 0; }
+  
+  .timeline-card {
+	position: relative;
+	margin-left: 31px;
+	border-left: 2px solid;
+	margin-bottom: 2rem; }
+  
+  .timeline-card:last-child {
+	margin-bottom: 1rem; }
+  
+  .timeline-card:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-color: rgb(250, 255, 250);
+	border-radius: 10px;
+	width: 12px;
+	height: 12px;
+	top: 20px;
+	left:-41px;
+	border: 2px solid;
+	z-index: 2; }
+  
+  .timeline-card:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-color: currentColor;
+	width: 29px;
+	height: 2px;
+	top: 25px;
+	left: -29px;
+	z-index: 1; }
+
+	.shadow-sm {
+		box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+	  .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid rgba(150, 230, 255, 0.829);
+  border-radius: 0.25rem; }
+  .card-body {
+	flex: 1 1 auto;
+	padding: 2rem 2rem; }
+  
+  .card-title {
+	margin-bottom: 1rem; }
+	/*  font h5 de titre   */
+	h5, .h5 {
+		font-family: style2;
+		font-size: 1.25rem; }
+	  /*  font h5 de titre   */
+	  h6, .h6 {
+		  font-family: style1;
+		font-size: 1rem; }
+		
+		.mb-1 {
+			margin-bottom: 0.5rem !important; }
+			.text-muted {
+				color: #6c757d !important; }
+/*  id pour bien priciser le element    */
+				#formation{
+
+					padding-bottom: 13em;
+				}
+				#Experience {
+					padding-bottom: 12em;
+				}
+			#fr{
+				background-image: url('img/fd.jpg');
+			}
+			#ex{
+				background-image: url('img/ex.jpg');
+
+			}
+			#co{
+				background-image: url('img/co.jpg');
+			}
+			#fram{
+right: 0;
+position: fixed;
+			}
