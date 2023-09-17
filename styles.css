@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green header background */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* White logo text color */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* White navigation link color */
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4; /* Hover color */
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white; /* White hamburger menu bar color */
+    margin: 4px 0;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #4CAF50; /* Green hero background */
+    color: white; /* White text color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white; /* White CTA button background */
+    color: #4CAF50; /* Green CTA button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #00bcd4; /* Hover background color */
+    color: white; /* Hover text color */
+}
+
+/* Other section styles (about, projects, resume, contact) go here */
+
+/* Footer styles */
+footer {
+    background-color: #4CAF50; /* Green footer background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive styles go here */
+/* Define your light mode styles here */
+/* ... (Your existing CSS code for light mode) ... */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+/* Additional styles for dark mode can be added here */
